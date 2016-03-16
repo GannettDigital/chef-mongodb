@@ -5,7 +5,7 @@ Last-Update: Wed Mar 16 11:00:00 EDT 2016
 
 Pending 0.16.4 Changes
 --------------------------
-* Too changes to fix issue: (mongodb::user_management line 14) had an error: NameError: uninitialized constant Mongo::MongoClient
+* Two changes to fix issue: (mongodb::user_management line 14) had an error: NameError: uninitialized constant Mongo::MongoClient
 * modify user_management recipt include_recipe 'mongodb::mongo_gem'
 * In default['mongodb']['ruby_gems'], use pinned version :mongo => '~> 1.12'
 
