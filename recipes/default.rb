@@ -46,3 +46,5 @@ if allow_mongodb_instance_run
     smallfiles   node['mongodb']['config']['smallfiles']
   end
 end
+
+include_recipe 'mongodb::user_management'
